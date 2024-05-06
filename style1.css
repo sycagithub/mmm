@@ -1,0 +1,262 @@
+body,html {
+    margin: 0;
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color:rgb(42, 26, 26);
+    height: 100%;
+}
+
+.nav_menu {
+    padding: 8px;
+    text-align:center;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 4px rgb(110, 110, 110);
+}
+
+.button {
+    width: 160px;
+    height: 40px;
+    margin: 4px;
+    display:inline-block;
+    padding: 8px;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover, a:active {
+    color: black;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    text-shadow: 2px 2px 4px rgb(110, 110, 110);
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+/* below section is css for index page */ 
+.main-index {
+    background-image: url("images/machine_02.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8 auto;
+    text-align: center;
+    height: 100%;
+    margin: 8;
+    color: rgba(255, 255, 255);
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.main-title {
+    text-shadow: 2px 2px 6px rgb(110, 110, 110);
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 8vw;
+    margin-bottom: 10px;
+}
+
+.question {
+    text-shadow: 2px 2px 4px rgb(110, 110, 110);
+    font-size: 2.5vw;
+    margin: 0px;
+}
+
+.gallery-container {
+    padding: 8px;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.capsule-word {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    justify-content: center;
+    text-align: center;
+}
+
+.capsule-1 {
+    transform: rotate(-5deg);
+    translate: 0px 0px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 8px;
+    padding: -16px;
+    background-size: cover;
+    color: #ffffff00;
+    justify-content: center;
+}
+
+.capsule-1:hover {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px rgb(110, 110, 110);
+    animation: shake 0.4s;
+}   
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.capsule-2 {
+    transform: rotate(10deg);
+    translate: 0 35px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+    margin: 8px;
+    padding: -16px;
+    background-size: cover;
+    color: #ffffff00;
+    justify-content: center;
+}
+
+.capsule-2:hover {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px rgb(110, 110, 110);
+    animation: shake 0.4s;
+}
+
+.capsule-3 {
+    transform: rotate(-10deg);
+    translate: 0px 10px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
+    margin: 8px;
+    padding: -16px;
+    background-size: cover;
+    color: #ffffff00;
+    justify-content: center;
+}
+
+.capsule-3:hover {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 2px rgb(110, 110, 110);
+    animation: shake 0.4s;
+}
+
+/* below section is css for museum page */ 
+.main-museum {
+    background-image: url("images/machine_blurred.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8 auto;
+    text-align: center;
+    height: 100%;
+    margin: 8 auto;
+    color: rgba(255, 255, 255);
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.car-container-museum {
+    padding: 8px;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.car-1:hover, .car-1:active {
+    color: black;
+}
+.car-2:hover, .car-2:active {
+    color: black;
+}
+.car-3:hover, .car-3:active {
+    color: black;
+}
+
+h3 {
+    margin: 0px 0px 75px 0px; ;
+    text-shadow: 2px 2px 2px rgb(110, 110, 110);
+}
+
+/* below section is css for bmw_isetta page */ 
+.main-bmw_isetta {
+    background-image: url("images/machine_blurred.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8 auto;
+    text-align: center;
+    height: 100%;
+    margin: 8 auto;
+    color: rgba(255, 255, 255);
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.car-container-bmw_isetta {
+    padding: 8px;
+    margin: 16px;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align:justify;
+}
+
+img {
+    float: left;
+    shape-outside: circle(55%);
+  }
+
+.isetta2 {
+display: flex;
+font-size: 20px;
+margin-right: 16px;
+text-align: left;
+}
