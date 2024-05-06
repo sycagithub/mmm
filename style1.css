@@ -3,7 +3,6 @@ body,html {
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
     font-style: normal;
-    height: fit-content;
 }
 
 .nav_menu {
@@ -211,7 +210,7 @@ a:hover, a:active {
     color: black;
 }
 
-h3 {
+.museum {
     margin: 0px 0px 75px 0px; ;
     text-shadow: 2px 2px 2px rgb(110, 110, 110);
 }
